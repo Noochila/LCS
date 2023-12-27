@@ -24,7 +24,7 @@ void solve(string k,int o,int z,int n,vector<string>&ans)
     
     solve(op1,o+1,z,n-1,ans);
     
-    if(o-z>0)
+    if(o>z)
     solve(op2,o,z+1,n-1,ans);
     
     
